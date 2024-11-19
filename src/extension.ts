@@ -20,7 +20,6 @@ export function activate(context: vscode.ExtensionContext) {
 
         const searchQuery = encodeURIComponent(selectedText);
         const searchUrl = `https://www.google.com/search?q=${searchQuery}`;
-
         open(searchUrl);
     });
 
